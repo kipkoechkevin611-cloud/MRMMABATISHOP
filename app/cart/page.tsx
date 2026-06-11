@@ -278,7 +278,7 @@ const CartPage = () => {
                       disabled={isSubmitting}
                       className="w-full py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl font-bold text-lg hover:from-green-600 hover:to-green-700 transition-all shadow-xl shadow-green-500/30 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
-                      {isSubmitting ? 'Processing...' : 'Order via WhatsApp'}
+                      {isSubmitting ? 'Processing...' : 'Order Now'}
                     </motion.button>
 
                     <button

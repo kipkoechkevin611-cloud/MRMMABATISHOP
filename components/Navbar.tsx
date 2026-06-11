@@ -44,7 +44,7 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-xl' : 'bg-transparent'
+        isScrolled ? 'bg-white/95 backdrop-blur-md shadow-xl' : 'bg-white/95 backdrop-blur-md shadow-xl'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -59,7 +59,7 @@ const Navbar = () => {
                 className="object-cover"
               />
             </div>
-            <div className={isScrolled ? 'text-gray-900' : 'text-white'}>
+            <div className="text-gray-900">
               <h1 className="text-xl font-bold tracking-tight">MRM Roofing</h1>
               <p className="text-xs font-medium opacity-90">& Steel</p>
             </div>
@@ -69,49 +69,37 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('home')}
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               Home
             </button>
             <Link
               href="/products"
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               Products
             </Link>
             <Link
               href="/services"
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               Services
             </Link>
             <Link
               href="/about"
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               About
             </Link>
             <Link
               href="/blog"
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               Blog
             </Link>
             <Link
               href="/contact"
-              className={`font-medium transition-colors hover:text-blue-500 ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="font-medium transition-colors hover:text-blue-500 text-gray-700"
             >
               Contact
             </Link>
@@ -121,9 +109,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-4">
             <a
               href="tel:0111333107"
-              className={`hidden md:flex items-center gap-2 px-4 py-2 rounded-full transition-colors ${
-                isScrolled ? 'bg-blue-600 text-white' : 'bg-white/20 backdrop-blur-sm text-white'
-              }`}
+              className="hidden md:flex items-center gap-2 px-4 py-2 rounded-full transition-colors bg-blue-600 text-white hover:bg-blue-700"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -145,9 +131,7 @@ const Navbar = () => {
               <motion.div
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
-                className={`p-3 rounded-full transition-colors ${
-                  isScrolled ? 'bg-blue-600 text-white' : 'bg-white/20 backdrop-blur-sm text-white'
-                }`}
+                className="p-3 rounded-full transition-colors bg-blue-600 text-white hover:bg-blue-700"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -174,9 +158,7 @@ const Navbar = () => {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className={`md:hidden p-2 rounded-lg ${
-                isScrolled ? 'text-gray-700' : 'text-white'
-              }`}
+              className="md:hidden p-2 rounded-lg text-gray-700"
             >
               <svg
                 className="h-6 w-6"
