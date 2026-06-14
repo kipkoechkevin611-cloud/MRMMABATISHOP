@@ -35,7 +35,7 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/254111333107"
+                href="https://wa.me/254780700584"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gradient-to-r from-green-500 to-green-600 rounded-full flex items-center justify-center hover:from-green-600 hover:to-green-700 transition-all shadow-lg"
@@ -72,7 +72,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-white mb-1">Phone</p>
-                  <p className="text-gray-400">0111333107</p>
+                  <p className="text-gray-400">0780700584</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -136,7 +136,7 @@ const Footer = () => {
                 Cart
               </a>
               <a
-                href="https://wa.me/254750918945"
+                href="https://wa.me/254780700584"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-gray-400 hover:text-white transition-colors font-medium"

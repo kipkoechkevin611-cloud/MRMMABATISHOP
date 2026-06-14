@@ -49,7 +49,7 @@ const CartPage = () => {
     message += `*Total: KES ${getCartTotal().toLocaleString()}*`;
 
     // Open WhatsApp with the message
-    const whatsappNumber = '254111333107';
+    const whatsappNumber = '254780700584';
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 

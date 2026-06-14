@@ -159,7 +159,7 @@ const ServicesPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://wa.me/254111333107"
+                href="https://wa.me/254780700584"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block px-10 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-xl font-bold text-lg hover:from-green-600 hover:to-green-700 transition-all shadow-xl shadow-green-500/30"
@@ -167,7 +167,7 @@ const ServicesPage = () => {
                 Contact via WhatsApp
               </a>
               <a
-                href="tel:0111333107"
+                href="tel:0780700584"
                 className="inline-block px-10 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-xl font-bold text-lg hover:from-blue-700 hover:to-blue-800 transition-all shadow-xl shadow-blue-500/30"
               >
                 Call Us Now

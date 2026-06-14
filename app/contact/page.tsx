@@ -19,7 +19,7 @@ const ContactPage = () => {
     e.preventDefault();
     // Create WhatsApp message
     const message = `*New Contact Form Submission*\n\n*Name:* ${formData.name}\n*Email:* ${formData.email}\n*Phone:* ${formData.phone}\n*Subject:* ${formData.subject}\n*Message:* ${formData.message}`;
-    const whatsappUrl = `https://wa.me/254111333107?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/254780700584?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
     
     // Reset form
@@ -85,9 +85,9 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">Phone</h3>
-                      <p className="text-gray-600 text-lg">0111333107</p>
+                      <p className="text-gray-600 text-lg">0780700584</p>
                       <a
-                        href="tel:0111333107"
+                        href="tel:0780700584"
                         className="text-blue-600 font-semibold hover:text-blue-700 transition-colors"
                       >
                         Call Now
@@ -107,9 +107,9 @@ const ContactPage = () => {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-gray-900 mb-2">WhatsApp</h3>
-                      <p className="text-gray-600 text-lg">+254 111 333 107</p>
+                      <p className="text-gray-600 text-lg">+254 780 700 584</p>
                       <a
-                        href="https://wa.me/254111333107"
+                        href="https://wa.me/254780700584"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-blue-600 font-semibold hover:text-blue-700 transition-colors"

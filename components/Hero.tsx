@@ -54,7 +54,7 @@ const Hero = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              onClick={() => window.open('https://wa.me/254111333107', '_blank')}
+              onClick={() => window.open('https://wa.me/254780700584', '_blank')}
               className="px-10 py-4 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-full font-semibold text-lg hover:from-green-600 hover:to-green-700 transition-all shadow-2xl shadow-green-500/50"
             >
               Get Free Quote
